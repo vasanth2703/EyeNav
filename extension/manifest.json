@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Eye Nav",
+    "version": "1.0",
+    "description": "Navigate your device effortlessly with your eyes.",
+    "icons": {
+        "100": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "100": "icon.png"
+        }
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }]
+}
