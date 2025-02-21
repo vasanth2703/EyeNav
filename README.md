@@ -8,7 +8,7 @@ People with motor disabilities often struggle to use digital devices. Voice comm
 
 ## Solution
 
-This project implements an AI-powered eye-tracking cursor that enables hands-free control of PCs and smartphones using only eye movements and blinks. It uses the IBM Granite Vision Transformer to analyze webcam video and translate eye movements into cursor control.
+This project implements an AI-powered eye-tracking cursor that enables hands-free control of the browser using only eye movements and blinks. It uses the IBM Granite Vision Transformer to analyse webcam video and translate eye movements into cursor control.
 
 ## Key Features
 
