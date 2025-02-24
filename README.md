@@ -13,7 +13,7 @@ This project implements an AI-powered eye-tracking cursor that enables hands-fre
 ## Key Features
 
 * **Gaze-Based Cursor Movement:** Move the on-screen cursor by simply looking around.
-* **Blink to Click:** Perform mouse clicks with blinks: a short blink for a left-click and a longer blink for a right-click.
+* **Blink twice to Click:** Perform mouse clicks with blinks: a short blink for a left-click and a longer blink for a right-click.
 * **Gaze Scrolling:** Scroll pages and reels by looking up or down.
 * **Real-Time AI Adaptation:** The model learns and adapts to individual user-specific gaze patterns over time for improved accuracy.
 * **No Extra Hardware Needed:** Works with a standard webcam, making it accessible and affordable.
